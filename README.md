@@ -4,7 +4,7 @@ A suite of custom Windows command-line utilities written in **C++** utilizing th
 
 ## 🛠 Educational Disclaimer
 This project was developed strictly for **educational purposes** as part of an academic assignment. It serves as a practical exploration of the Windows API, process management, and the security implications of command-line reconnaissance tools.
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 *   **Windows 10/11**
@@ -20,7 +20,7 @@ This project was developed strictly for **educational purposes** as part of an a
     *   Go to **Build > Rebuild Solution**. This will compile all three projects (`bwdir`, `bwpwd`, and `bwcd`) simultaneously.
 4.  **Locate Binaries**: The compiled `.exe` files and the `.bat` wrapper will be generated in your solution's output directory (typically `x64\Debug\` or `x64\Release\`).
 
-## 🚀 Usage & Examples
+## Usage & Examples
 
 ### 1. `bwdir` (Enhanced Directory Listing)
 A replacement for the standard `dir` command with support for ownership and recursion.
@@ -108,22 +108,22 @@ C:\Users\User> "C:\Path\To\mycd.bat" C:\Windows\System32
 
 ---
 
-## 📖 Component Logic
+## Component Logic
 
 *   **`bwdir.exe`**: Uses `FindFirstFileW` and `GetNamedSecurityInfoW` to list files and their NTFS owners.
 *   **`bwpwd.exe`**: Uses `GetCurrentDirectoryW` to retrieve the active process path.
 *   **`bwcd.exe`**: Reconstructs arguments to handle spaces and validates paths via `SetCurrentDirectoryW`.
 *   **`mycd.bat`**: Uses `%~dp0` to locate the binary and triggers `cd /d` upon a successful exit code (0) from the C++ validator.
 
-## 📂 Project Structure
+## Project Structure
 The solution is organized into three distinct projects:
 *   **`bwdir`**: C++ source for the enhanced directory listing tool.
 *   **`bwpwd`**: C++ source for the path printing tool.
 *   **`bwcd`**: C++ source for path validation and the `mycd.bat` wrapper.
-## ⚖️ License
+## License
 This project is released under the **Unlicense**. You are free to copy, modify, publish, use, compile, sell, or distribute this software for any purpose. For more information, please refer to <http://unlicense.org>
 
-## 📧 Contact
+## Contact
 **Brett Wright**  
 **Email:** carrottop81690@gmail.com  
 **https://github.com/carrottop81690**
