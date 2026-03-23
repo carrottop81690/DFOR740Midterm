@@ -2,7 +2,7 @@
 
 A suite of custom Windows command-line utilities written in **C++** utilizing the **Win32 API**. These tools replicate and enhance core system functionality using low-level system calls for file enumeration, directory management, and security descriptor retrieval. This was built with the help of Gemini (Google AI).
 
-## 🛠 Educational Disclaimer
+## Educational Disclaimer
 This project was developed strictly for **educational purposes** as part of an academic assignment. It serves as a practical exploration of the Windows API, process management, and the security implications of command-line reconnaissance tools.
 ##  Getting Started
 
