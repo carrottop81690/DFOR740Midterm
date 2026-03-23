@@ -8,7 +8,8 @@ This project was developed strictly for **educational purposes** as part of an a
 
 ### Prerequisites
 *   **Windows 10/11**
-*   **Visual Studio 2019/2022** with the **"Desktop development with C++"** workload installed.
+*   **Visual Studio 2022 (Version 17.10+)** with the `"Desktop development with C++"` workload installed.
+    *   *Note: This project uses the new `.slnx` solution format, which requires a recent update of VS 2022.*
 
 ### Installation & Setup
 1.  **Clone or Download**: Download the source code to your local machine.
