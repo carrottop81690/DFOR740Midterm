@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="LICENSE.txt" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="bwcd/bwcd.exe.vcxproj" Id="ade4f22f-a687-4c27-a525-445f2f78aed1" />
+  <Project Path="bwpwd/bwpwd.vcxproj" Id="90ead31d-d33b-4b7c-9208-6524bd74d64d" />
+  <Project Path="bwdir/Midterm.vcxproj" Id="05dc70fe-9d0e-4bdf-a790-95dddd54e4ae" />
+</Solution>
