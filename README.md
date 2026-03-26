@@ -74,7 +74,7 @@ C:\Users\User\Documents\Source\Repos> "C:\Path\To\bwpwd.exe"
 ---
 
 ### 3. `mycd.bat` (Change Directory Wrapper)
-Because a child process cannot modify a parent terminal's environment, this tool uses a C`` validator (`bwcd.exe`) and a Batch wrapper (`mycd.bat`) to successfully move the prompt.
+Because a child process cannot modify a parent terminal's environment, this tool uses a C++ validator (`bwcd.exe`) and a Batch wrapper (`mycd.bat`) to successfully move the prompt.
 
 *   **Subdirectory Name:** Move into a folder within your current location.
 ```cmd
